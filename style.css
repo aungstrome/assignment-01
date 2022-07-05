@@ -6,6 +6,9 @@ h1 {
   font-size: 70px;
   font-weight: 900px;
 }
+h2 {
+  font-size: 50px;
+}
 
 .top-banner-section {
   background-image: url(images/donation.png);
@@ -26,4 +29,12 @@ h1 {
   border-radius: 5px;
   font-weight: bold;
   background-color: #ff5959;
+}
+.donate-today-description {
+  text-align: center;
+  margin: 10% 25%;
+}
+
+.buttons {
+  display: flex;
 }
