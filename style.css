@@ -1,0 +1,29 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 70px;
+  font-weight: 900px;
+}
+
+.top-banner-section {
+  background-image: url(images/donation.png);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.top-banner-description {
+  color: white;
+  text-align: center;
+  margin: 10% 25%;
+}
+
+.button-link {
+  text-decoration: none;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #ff5959;
+}
