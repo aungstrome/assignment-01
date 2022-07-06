@@ -99,16 +99,12 @@ h4 {
   margin: 0 3%;
 }
 
-/* body {
-  background-color: silver;
-  
-} */
-
 .pie-chart {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 200px;
 }
 #my-pie-chart-container {
   display: flex;
