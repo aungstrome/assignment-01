@@ -114,15 +114,15 @@ h4 {
 #my-pie-chart {
   background: conic-gradient(
     black 0% 0.55%,
-    blue 0.55% 6.08%,
-    green 6.08% 13.68%,
-    yellow 13.68% 23.27%,
-    orange 23.27% 40.47%,
-    red 40.47%
+    rgba(14, 14, 231, 0.753) 0.55% 6.08%,
+    rgba(3, 165, 3, 0.74) 6.08% 13.68%,
+    rgba(240, 240, 7, 0.856) 13.68% 23.27%,
+    rgba(223, 147, 6, 0.781) 23.27% 40.47%,
+    rgba(214, 10, 10, 0.76) 40.47%
   );
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
 }
 
 #legenda {
@@ -146,23 +146,23 @@ h4 {
 }
 
 #color-red {
-  background-color: red;
+  background-color: rgba(214, 10, 10, 0.76);
 }
 
 #color-orange {
-  background-color: orange;
+  background-color: rgba(223, 147, 6, 0.781);
 }
 
 #color-yellow {
-  background-color: yellow;
+  background-color: rgba(240, 240, 7, 0.856);
 }
 
 #color-green {
-  background-color: green;
+  background-color: rgba(3, 165, 3, 0.74);
 }
 
 #color-blue {
-  background-color: blue;
+  background-color: rgba(14, 14, 231, 0.753);
 }
 
 #color-black {
