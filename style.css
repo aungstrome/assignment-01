@@ -10,6 +10,10 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 .top-banner-section {
   background-image: url(images/donation.png);
   background-size: cover;
@@ -30,11 +34,34 @@ h2 {
   font-weight: bold;
   background-color: #ff5959;
 }
+.donate-today-section {
+  margin-bottom: 100px;
+}
 .donate-today-description {
   text-align: center;
   margin: 10% 25%;
 }
 
-.buttons {
+.flexible-container {
   display: flex;
+}
+
+.buttons {
+  background-color: #fafafa;
+  color: #707070;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#second-button {
+  background-color: #ffeeee;
+  color: #ff5959;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.color-grey {
+  color: #b3b3b3;
 }
