@@ -14,6 +14,10 @@ h3 {
   font-size: 20px;
 }
 
+.paragraph {
+  margin: 10px 100px;
+}
+
 .top-banner-section {
   background-image: url(images/donation.png);
   background-size: cover;
@@ -88,4 +92,34 @@ h3 {
   background-color: #fff4d6;
   padding: 2%;
   margin: 0 3%;
+}
+
+.form {
+  background-color: #fff4d6;
+  padding: 80px;
+}
+
+.form a {
+  background-color: #ff5959;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.form input {
+  background-color: #d9d9d9;
+  color: #534e4e;
+  padding: 10px 60px 10px 5px;
+  text-align: left;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.form-feild {
+  display: flex;
+  justify-content: center;
 }
